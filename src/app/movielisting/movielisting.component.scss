@@ -1,0 +1,78 @@
+.body {
+    background-color: palevioletred;
+}
+    h1{
+    background-color:red;
+    color: mintcream;
+    font-weight: bolder;
+    font-size: 45px;
+    width: 1000px;
+    margin-left: 650px;
+    text-align: center;
+    box-shadow: 10px 10px 5px grey;
+}
+
+
+
+h5{
+    background-color: black;
+    box-shadow: 10px 10px 5px grey;
+    font-weight: bolder;
+    font-size: 25px;
+    color:white;
+    width:500px;
+    text-align: center;
+}
+.img {
+    width: 100px;
+    height: 100px;
+    padding-bottom: 80px;
+   
+}
+h3{
+    background-color: red;
+    font-weight: bolder;
+    font-size: 45px;
+    color:white;
+    width:800px;
+    text-align: center;
+    margin-left: 340px;
+}
+
+.movie-list {
+    margin-left:6%;
+}
+
+    .movie {
+        display:inline-block;
+        padding-left: 55px;
+        padding-top: 80px;
+        border: 1px solid white;
+        padding-top:50px ;
+        
+         }
+    .image {
+        height: 200px;
+        width: 200px;
+        position: relative;
+    }
+          
+    .details {
+        border: 1px solid white;
+        margin-top: 10%;
+        color:white;
+        font-weight: bold;   
+        border: 1px solid white;
+      }
+      .movie-list:hover .details{
+          position: relative;
+          transition: all 0.7s ease;
+
+
+      }
+      .details:hover {
+           background-color: red;
+
+        }
+        
+

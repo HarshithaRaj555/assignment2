@@ -1,0 +1,19 @@
+<h1>Avengers World</h1>
+<h5>START STREAMING NOW</h5>
+
+<div class="img">
+<img src="https://i.pinimg.com/originals/b8/8e/59/b88e5919775afd0de88efa8ebcaf1250.png" alt="">
+</div>
+<h3>MOVIES </h3>
+
+<div class="movie-list">
+    <div class="movie" *ngFor="let movie of movieList">
+        <div routerLink="/movie/{{movie.imdbID}}">
+        <img class="image" [src]="movie.Poster" alt="">
+       <div class="details">
+           <p class=" title">{{movie.Title | slice:0:25}}</p>
+        <p class="year">{{movie.Year}}</p>
+        
+        </div>  </div>
+    </div>
+</div>
